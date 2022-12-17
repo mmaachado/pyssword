@@ -32,4 +32,4 @@ def generate_password(length: int, symbols: bool, uppercase: bool):
 # Change range() value to generate as many passwords you prefer
 for _, index in enumerate(range(5)):
     
-    print(index + 1, ":", generate_password(length=17, symbols=True, uppercase=True))
+    print(index + 1, ":", generate_password(length=24, symbols=True, uppercase=True))
